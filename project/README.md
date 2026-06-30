@@ -1,6 +1,6 @@
 # Simple Web Development Project
 
-This is a basic web development assignment created using HTML, CSS, and Vanilla JavaScript. It contains a login page and a weather dashboard that fetches live data from OpenWeatherMap.
+This is a basic web development assignment created using HTML, CSS, and JavaScript. It contains a login page and a weather dashboard that fetches live data from OpenWeatherMap.
 
 ## Project Structure
 
@@ -39,7 +39,7 @@ The weather search function uses the WeatherAPI.com API. You must configure your
 
 ## How to Run the Project
 
-Because this project uses the `fetch()` API to load `users.json`, it **cannot** be run by simply double-clicking `index.html` in your file explorer (the browser will block it due to CORS/security settings). You must run it using a local web server:
+Because this project uses the `fetch()` API to load `users.json`, it **cannot** be run by simply double-clicking `index.html` in your file explorer. You must run it using a local web server:
 
 ### Method 1: Using VS Code Live Server
 1. Open the project folder in VS Code.
@@ -47,19 +47,9 @@ Because this project uses the `fetch()` API to load `users.json`, it **cannot** 
 3. Click the **Go Live** button at the bottom-right corner of the window.
 4. Your browser will open the site automatically at `http://127.0.0.1:5500/index.html`.
 
-### Method 2: Using Python
-1. Open your terminal or Command Prompt.
-2. Navigate to the project directory:
-   ```cmd
-   cd project
-   ```
-3. Start Python's built-in server:
-   ```cmd
-   python -m http.server 8000
-   ```
-4. Open your web browser and go to `http://localhost:8000`.
 
-### Method 3: Using Node.js
+
+### Method 2: Using Node.js
 1. If you have Node.js installed, open terminal inside the project directory and run:
    ```cmd
    npx http-server -p 8000
