@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard-box">
+        <div class="header-container">
+            <h1>Weather Dashboard</h1>
+            <img src="https://i.pinimg.com/originals/f5/f6/1a/f5f61ad8eae60541eae8c61182190db2.jpg" alt="Weather Icon" class="header-icon">
+        </div>
+        
+        <!-- Input section for entering city name -->
+        <div class="search-section">
+            <input type="text" id="cityInput" placeholder="Enter City">
+            <button id="searchButton">Search</button>
+        </div>
+        
+        <!-- Results container where weather info will be shown -->
+        <div id="weatherInfo">
+            <!-- This will be filled by JavaScript -->
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
