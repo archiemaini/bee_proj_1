@@ -1,5 +1,7 @@
 
 
+var apiKey = (typeof config !== "undefined" && config.apiKey) ? config.apiKey : "YOUR_API_KEY_HERE";
+
 document.querySelector("#searchButton").addEventListener("click", function() {
     
 
